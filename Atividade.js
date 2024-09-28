@@ -1,7 +1,5 @@
 var nome = "Eduardo";
-console.log(nome)
 var idade = 32;
-console.log(idade)
 console.log(`Olá, meu nome é ${nome} e tenho ${idade} anos`); // Declarar nome e idade = 1ª questão
 
 
@@ -46,8 +44,8 @@ var n1 = 8;
 var n2 = 9;
 var n3 = 5;
 
-var media = (n1+n2+n3) / 3
-var resultado = media.toFixed(2)
+var media = (n1+n2+n3) / 3;
+var resultado = media.toFixed(2);
 
 console.log(`Sua média é...${resultado}.`); // O cálculo da média = 5ª questão
 
@@ -62,6 +60,7 @@ console.log(`O preço final do produto após o desconto é R$ ${preco_final}`); 
 
 
 
+
 var salario_bruto = 6000; // salario bruto
 var aliquota = 0.275; // percentual de 27,5% IR
 var valor_devido = (salario_bruto * aliquota);
@@ -72,7 +71,24 @@ console.log(`O valor do imposto de renda a ser pago é R$ ${valor_final}`); // V
 
 
 
+var valoremreal = 10;
+var valoremdolar = valoremreal / 5.16;
+
+console.log(`O valor convertido de real em dolar é ${valoremdolar.toFixed(2)}`); // Valor da conversão de real em dolar = 8ª questão
+
+
+
+
 var celcius = 25.3;
 var fahrenheit = (celcius * 9 / 5) + 32;
 
-console.log(`O valor convertido será de ${fahrenheit}`)
+console.log(`O valor convertido será de ${fahrenheit}`) // Valor da conversão de celsius em fahrenheit = 9ª questão
+
+
+
+
+var kg = 77;
+var altura = 1.82;
+var IMC = kg / (altura * altura);
+
+console.log(`O IMC é ${IMC.toFixed(2)}`) // Valor do IMC = 10ª questão
