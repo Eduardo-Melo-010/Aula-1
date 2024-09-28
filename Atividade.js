@@ -69,3 +69,10 @@ var valor_final = valor_devido.toFixed(2)
 
 console.log(`O valor do imposto de renda a ser pago é R$ ${valor_final}`); // Valor do Imposto de Renda = 7ª questão
 
+
+
+
+var celcius = 25.3;
+var fahrenheit = (celcius * 9 / 5) + 32;
+
+console.log(`O valor convertido será de ${fahrenheit}`)
