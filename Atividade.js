@@ -9,7 +9,7 @@ console.log(`Olá, meu nome é ${nome} e tenho ${idade} anos`); // Declarar nome
 
 var nome = "Eduardo";
 var cidade = "Recife"
-console.log(`${nome} ${cidade}`); // Declara nome e a cidade de onde é = 2ª questão
+console.log(`${nome} é de ${cidade}`); // Declara nome e a cidade de onde é = 2ª questão
 
 
 
